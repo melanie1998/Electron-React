@@ -1,0 +1,82 @@
+/* @import "~antd/dist/antd.css"; */
+
+
+.App {
+  text-align: center;
+}
+
+.App-logo {
+  animation: App-logo-spin infinite 20s linear;
+  height: 40vmin;
+  pointer-events: none;
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+.form{
+  position: absolute;
+  top: 7.5vh;
+  left: 35.5vw;
+  background-color: rgba(28, 28, 28,0.95);
+  height: 70vh;
+  width: 27vw;
+  border: 2px solid orange;
+  border-radius: 5px;
+}
+
+.logo img{
+  width: 85%;
+  margin-left: 6vh;
+  margin-top: -5vh;
+}
+.input.ant-input{
+  margin-bottom: 28px;
+  padding-left: 1vw;
+  padding-top: 0.2vh;
+  height: 35px;
+  width: 20vw;
+  background-color: #2d2d2d;
+  border: 0;
+  font-size: 16px;
+  color: #fff;
+  border-radius: 5px;
+}
+.input.ant-input :hover, .input.ant-input :active, .input.ant-input :focus {
+  background-color: #3c3c3c;
+  border: 0;
+}
+.button {
+  position: absolute;
+  width: 75%;
+  background-color: orange;
+  color: #fff;
+  text-transform: uppercase;
+  margin-top: 1vh;
+  border-radius: 50px;
+  padding: 17px 0;
+  font-size: 14px;
+  letter-spacing: 3px;
+  font-weight: bold;
+}
